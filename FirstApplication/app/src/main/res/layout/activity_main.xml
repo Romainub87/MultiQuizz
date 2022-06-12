@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.MainActivity">
+
+    <TextView
+        android:id="@+id/main_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:text="@string/bienvenue_dans_topquiz_quel_est_votre_pr_nom" />
+
+
+    <EditText
+        android:id="@+id/main_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/taper_votre_pr_nom" />
+
+    <TextView
+        android:id="@+id/theme_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="@string/choisir_un_th_me" />
+
+    <Button
+        android:id="@+id/football_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/football"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/informatique_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/informatique"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/classement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:textStyle="bold"
+        tools:text="Classement" />
+
+    <Button
+        android:id="@+id/Quitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135pt"
+        android:layout_gravity="center"
+        android:text="@string/quitter"/>
+
+
+
+
+</LinearLayout>

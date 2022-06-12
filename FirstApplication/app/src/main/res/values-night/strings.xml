@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bienvenue_dans_topquiz_quel_est_votre_pr_nom">Bienvenue dans TopQuiz. Quel est votre prénom ?</string>
+    <string name="football">Football</string>
+    <string name="informatique">Informatique</string>
+    <string name="choisir_un_th_me">Choisir un thème</string>
+</resources>

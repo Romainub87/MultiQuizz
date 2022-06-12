@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MultiQuizz</string>
+    <string name="bienvenue_dans_topquiz_quel_est_votre_pr_nom">Bienvenue dans MultiQuizz. Quel est votre pseudo ?</string>
+    <string name="taper_votre_pr_nom">Taper votre pseudo</string>
+    <string name="let_s_go">C\'est parti !</string>
+    <string name="question">Question ?</string>
+    <string name="r_sum_de_la_partie">Résumé de la partie</string>
+    <string name="nom_du_joueur">Nom Du Joueur</string>
+    <string name="score_du_joueur">Score du Joueur</string>
+    <string name="quitter">Quitter</string>
+    <string name="football">Football</string>
+    <string name="informatique">Informatique</string>
+    <string name="choisir_un_th_me">Choisir un thème :</string>
+</resources>

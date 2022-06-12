@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/grey">
+
+    <TextView
+        android:id="@+id/Game_ScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        tools:text="Score"
+        android:padding="8dp"/>
+    <TextView
+        android:id="@+id/Game_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:padding="50dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Question ?"/>
+
+    <Button
+        android:id="@+id/Game_Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:textSize="10sp"
+        tools:text="Answer 1"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/Game_Button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:textSize="10sp"
+        tools:text="Answer 2"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/Game_Button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:textSize="10sp"
+        tools:text="Answer 3"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/Game_Button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:textSize="10sp"
+        tools:text="Answer 4"
+        tools:ignore="SmallSp" />
+
+
+</LinearLayout>
